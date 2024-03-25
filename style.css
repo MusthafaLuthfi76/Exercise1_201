@@ -3,10 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: wheat; /* Mengubah warna latar belakang menjadi wheat */
     border: solid;
   }
   
+  .content-wrapper {
+    background-color: white; /* Latar belakang putih untuk konten */
+    padding: 8px;
+    border-radius: 2px; /* Untuk memberi efek kotak */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk menonjolkan kotak */
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
   /* Style untuk judul */
   h1 {
     text-align: center;
